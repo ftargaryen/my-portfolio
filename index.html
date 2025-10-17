@@ -7,48 +7,59 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+    <!-- Header -->
+    <header class="site-header">
         <div class="container">
             <h1>Franklin Anyaogu</h1>
             <p>Fullstack Python Developer | Storyteller | Tech Enthusiast</p>
         </div>
     </header>
 
-    <nav>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#articles">Articles</a>
-        <a href="#contact">Contact</a>
+    <!-- Navigation -->
+    <nav class="site-nav">
+        <div class="container">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#articles">Articles</a>
+            <a href="#contact">Contact</a>
+        </div>
     </nav>
 
-    <section id="about" class="container">
-        <h2>About Me</h2>
-        <p>
-            I'm <strong>Franklin Anyaogu</strong>, a tech-driven learner and aspiring 
-            <strong>Fullstack Python Developer</strong>. I’m passionate about building 
-            efficient, people-focused solutions and exploring how technology can 
-            tell better stories. I’m currently in training, learning fullstack development 
-            with a focus on Python, JavaScript, and modern frameworks.
-        </p>
-        <p>
-            Outside coding, I love researching, writing, and analyzing how ideas shape society — 
-            much like the work of writers such as David Hundeyin. My goal is to blend 
-            technical skill with storytelling to create meaningful digital experiences.
-        </p>
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <img src="images/image1.jpg" alt="Franklin Anyaogu" class="profile-pic">
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p>
+                    I'm <strong>Franklin Anyaogu</strong>, a passionate <strong>Fullstack Python Developer</strong> in training. 
+                    I love exploring how technology, creativity, and storytelling connect to create lasting impact.
+                </p>
+                <p>
+                    I’m driven by curiosity, learning, and a desire to build meaningful digital experiences — 
+                    blending my technical background with strong communication and analytical thinking.
+                </p>
+                <a href="#projects" class="btn">View My Projects</a>
+            </div>
+        </div>
     </section>
 
+    <!-- Projects Section -->
     <section id="projects" class="container">
         <h2>Projects</h2>
         <div class="project">
             <h3>To-Do List App</h3>
             <p>A simple Python app that manages daily tasks efficiently.</p>
+            <a href="#" class="btn">View Project</a>
         </div>
         <div class="project">
             <h3>Portfolio Website</h3>
             <p>This site — designed with clean, readable design and minimalist colors.</p>
+            <a href="#" class="btn">View Project</a>
         </div>
     </section>
 
+    <!-- Articles Section -->
     <section id="articles" class="container">
         <h2>Articles & Writings</h2>
         <p>
@@ -57,7 +68,8 @@
         </p>
     </section>
 
-    <section id="contact" class="container">
+    <!-- Contact Section -->
+    <section id="contact" class="container contact-section">
         <h2>Get in Touch</h2>
         <p>
             Have a collaboration idea or want to connect? 
@@ -65,7 +77,8 @@
         </p>
     </section>
 
-    <footer>
+    <!-- Footer -->
+    <footer class="site-footer">
         <p>© 2025 Franklin Anyaogu — Built with ❤️ using HTML & CSS</p>
     </footer>
 </body>
